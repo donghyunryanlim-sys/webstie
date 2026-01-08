@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"rel="stylesheet"integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"crossorigin="anonymous"'>
+<link rel='stylesheet' href='https://cdn.tailwindcss.com'><link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body class="min-h-screen bg-slate-950 text-slate-100">
+  <div class="bg-animated">
+    <div class="max-w-5xl mx-auto p-4">
+
+      <header class="flex items-center justify-between gap-4">
+        <div class="flex items-center gap-2">
+          <div class="w-10 h-10 rounded-full bg-white/10 overflow-hidden ring-1 ring-white/10">
+            <img src="https://github.com/donghyunryanlim-sys/webstie/blob/main/donghyun_ryan_lim_0.png?raw=true" class="w-full h-full object-cover" />
+          </div>
+          <div>
+            <p class="font-semibold text-slate-600">임동현</p>
+            <p class="text-sm text-slate-600">한림대학교 3학년</p>
+          </div>
+        </div>
+
+        <nav class="flex items-center gap-4">
+          <a class="navlink" href="./index.html">Home</a>
+          <a class="navlink" href="./about.html">About</a>
+          <a class="navlink" href="./calculator.html">Calculator</a>
+        </nav>
+      </header>
+
+      <section class="reveal mt-6 rounded-xl border border-white/10 bg-white/5 glass p-5">
+        <h1 class="text-2xl font-bold tracking-tight text-slate-800">About</h1>
+        <p class="mt-2 text-sm text-slate-500 leading-relaxed">
+          안녕하세요, 저의 소개페이지에 방문해 주셔서 감사합니다. 현재 한림대학교에서 의과학을 공부하며 학부연구생으로 활동하고 있습니다.
+실험(qPCR, Western blot, cell culture)과 데이터 분석(회귀분석, 데이터 처리)을 함께 경험하며 연구 역량을 키우고 있습니다.
+특히 뇌과학과 신경질환 메커니즘에 관심이 많아 관련 주제를 꾸준히 공부하고 있습니다.
+작은 가설을 세우고 검증하는 과정을 좋아하며, 결과를 명확한 글과 시각자료로 정리하는 데 강점이 있습니다.
+앞으로는 연구와 기술을 연결해 실제 문제를 해결하는 의과학 연구자가 되는 것이 목표입니다.
+        </p>
+
+        <div class="mt-4 grid grid-cols-1 sm:grid-cols-3 gap-3">
+          <div class="sm:col-span-1 rounded-xl border border-white/10 bg-black/20 p-4">
+            <div class="mt-3 w-full aspect-square rounded-lg bg-white/10 overflow-hidden">
+              <img src="https://github.com/donghyunryanlim-sys/webstie/blob/main/donghyun_ryan_lim_0.png?raw=true" class="w-full h-full object-cover" />
+            </div>
+          </div>
+
+          <div class="sm:col-span-2 rounded-xl border border-white/10 bg-black/20 p-4">
+            <p class="text-sm font-semibold text-slate-600">Donghyun Lim</p>
+            <ul class="mt-3 text-sm text-slate-800 space-y-2">
+              <li>• 전공: 의과학</li>
+              <li>• 관심 분야: Neurosicence, Bioinformatics</li>
+              <li>• 현재: 도파민과 세로토닌 상호작용 및 불균형 작용에 관한 연구를 진행하고있습니다.</li>
+              <li>• 목표: 특정 행동 양상에 따른 neuronal pathway의 기전을 밝히고자 노력하고 있습니다.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Accordion (인터랙션) -->
+      <section class="reveal mt-6 rounded-xl border border-white/10 bg-white/5 glass p-5">
+        <h2 class="text-lg font-semibold text-slate-900">Research in Progress</h2>
+        <p class="text-sm text-slate-500">각 항목을 눌러 다양한 정보를 알아보세요!</p>
+
+        <div class="mt-4 space-y-2 text-slate-600">
+          <button class="acc-btn" data-acc="acc1">Analysis of Pulmonary Risk Factor in the United States</button>
+          <div id="acc1" class="acc-panel">
+            <p class="text-sm text-slate-600 leading-relaxed">
+              미국 National Inpatient Sample(NIS) 데이터를 활용해 폐질환 관련 입원 (asthma, COPD, pneumonia)의 위험요인을 분석하는 Pulmonary Risk 프로젝트를 수행했습니다. 인종/민족에 따른 차이를 중심으로 다변량 회귀 모델과 가중치 적용 분석을 통해 임상·사회적 요인이 결과에 미치는 영향을 정리했습니다.
+            </p>
+          </div>
+
+          <button class="acc-btn" data-acc="acc2">Investigating Self-injurious Behavior in ICR mouse model</button>
+          <div id="acc2" class="acc-panel">
+            <p class="text-sm text-slate-600 leading-relaxed">
+              신경질환 모델 기반 연구를 진행하고 있습니다. 도파민(DA)-세로토닌(5-HT) 상호작용이 행동 표현형에 미치는 영향을 중심으로, 실험(qPCR, Western blot, cell culture, electrophoresis 등)과 데이터 분석(회귀분석, 데이터 처리)을 병행해 기전을 탐구하고 있습니다.
+            </p>
+          </div>
+
+          <button class="acc-btn" data-acc="acc3">연락처</button>
+          <div id="acc3" class="acc-panel">
+            <p class="text-sm text-slate-600 leading-relaxed">
+              Email: dhlim@hallym.ac.kr / Phone: +82-10-2304-8822
+            </p>
+          </div>
+        </div>
+
+        <div class="mt-5 flex gap-2">
+          <a class="btn btn-primary" href="./index.html">홈으로</a>
+          <a class="btn btn-ghost" href="./calculator.html">계산기</a>
+        </div>
+      </section>
+
+      <footer class="mt-6 text-center text-sm text-slate-400">
+        <p>© 2026 한림대학교 ooo</p>
+      </footer>
+    </div>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+</html>
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"rel="stylesheet"integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"crossorigin="anonymous"'></script>
+<script src='https://cdn.tailwindcss.com'></script><script  src="./script.js"></script>
+
+  </body>
+  
+</html>

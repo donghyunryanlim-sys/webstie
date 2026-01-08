@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Page.Calculator</title>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"rel="stylesheet"integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"crossorigin="anonymous"'>
+<link rel='stylesheet' href='https://cdn.tailwindcss.com'><link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Calculator</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body class="min-h-screen bg-slate-950 text-slate-100">
+  <div class="bg-animated">
+    <div class="max-w-5xl mx-auto p-4">
+
+      <header class="flex items-center justify-between gap-4">
+        <p class="font-semibold">Calculator</p>
+        <nav class="flex items-center gap-4">
+          <a class="navlink" href="./index.html">Home</a>
+          <a class="navlink" href="./about.html">About</a>
+        </nav>
+      </header>
+
+      <div class="min-h-[70vh] flex items-center justify-center p-3 sm:p-6">
+        <div class="w-full max-w-[420px] bg-white rounded-xl shadow-sm border border-gray-200 text-gray-900">
+          <div class="p-4 sm:p-5">
+            <h5 class="text-center mb-3 text-base sm:text-lg font-semibold">
+              Calculator
+            </h5>
+
+            <input id="display" type="text"
+              class="w-full text-right text-xl sm:text-2xl px-3 sm:px-4 py-2 sm:py-3 mb-3 rounded-lg border border-gray-300 bg-white focus:outline-none"
+              value="0" readonly />
+
+            <div class="keys grid grid-cols-4 gap-2 sm:gap-3">
+              <button class="h-10 sm:h-11 text-sm sm:text-base rounded-lg border border-gray-600 text-gray-700 hover:bg-blue-50" data-key="7">7</button>
+              <button class="h-10 sm:h-11 text-sm sm:text-base rounded-lg border border-gray-600 text-gray-700 hover:bg-blue-50" data-key="8">8</button>
+              <button class="h-10 sm:h-11 text-sm sm:text-base rounded-lg border border-gray-600 text-gray-700 hover:bg-blue-50" data-key="9">9</button>
+              <button class="h-10 sm:h-11 text-sm sm:text-base rounded-lg border border-blue-600 text-blue-600 hover:bg-blue-100" data-key="÷">÷</button>
+
+              <button class="h-10 sm:h-11 text-sm sm:text-base rounded-lg border border-gray-600 text-gray-700 hover:bg-blue-50" data-key="4">4</button>
+              <button class="h-10 sm:h-11 text-sm sm:text-base rounded-lg border border-gray-600 text-gray-700 hover:bg-blue-50" data-key="5">5</button>
+              <button class="h-10 sm:h-11 text-sm sm:text-base rounded-lg border border-gray-600 text-gray-700 hover:bg-blue-50" data-key="6">6</button>
+              <button class="h-10 sm:h-11 text-sm sm:text-base rounded-lg border border-blue-600 text-blue-600 hover:bg-blue-100" data-key="×">×</button>
+
+              <button class="h-10 sm:h-11 text-sm sm:text-base rounded-lg border border-gray-600 text-gray-700 hover:bg-blue-50" data-key="1">1</button>
+              <button class="h-10 sm:h-11 text-sm sm:text-base rounded-lg border border-gray-600 text-gray-700 hover:bg-blue-50" data-key="2">2</button>
+              <button class="h-10 sm:h-11 text-sm sm:text-base rounded-lg border border-gray-600 text-gray-700 hover:bg-blue-50" data-key="3">3</button>
+              <button class="h-10 sm:h-11 text-sm sm:text-base rounded-lg border border-blue-600 text-blue-600 hover:bg-blue-100" data-key="-">-</button>
+
+              <button class="col-span-2 h-10 sm:h-11 text-sm sm:text-base rounded-lg border border-blue-600 text-gray-700 hover:bg-blue-50" data-key="0">0</button>
+              <button class="h-10 sm:h-11 text-sm sm:text-base rounded-lg border border-blue-600 bg-yellow-400 text-gray-900 font-semibold hover:bg-yellow-500" data-key="C">C</button>
+              <button class="h-10 sm:h-11 text-sm sm:text-base rounded-lg border border-blue-600 bg-green-600 text-white font-semibold hover:bg-green-700" data-key="=">=</button>
+              <button class="h-10 sm:h-11 text-sm sm:text-base rounded-lg border border-blue-600 text-blue-600 hover:bg-blue-100" data-key="+">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="mt-6 text-center text-sm text-slate-400">
+        <p>© 2026 한림대학교 ooo</p>
+      </footer>
+    </div>
+  </div>
+
+  <script src="./calculator.js"></script>
+</body>
+</html>
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"rel="stylesheet"integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"crossorigin="anonymous"'></script>
+<script src='https://cdn.tailwindcss.com'></script><script  src="./script.js"></script>
+
+  </body>
+  
+</html>
